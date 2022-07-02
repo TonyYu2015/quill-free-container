@@ -1,8 +1,8 @@
 {
   "name": "quill-free-container",
-  "version": "1.0.0",
+  "version": "0.0.1",
   "description": "a quill module",
-  "main": "index.js",
+  "main": "./src/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -11,12 +11,14 @@
     "url": "git+https://github.com/TonyYu2015/quill-free-container.git"
   },
   "keywords": [
-    "module"
+    "quill module container"
   ],
   "author": "ycy",
-  "license": "ISC",
+  "license": "MID",
   "bugs": {
     "url": "https://github.com/TonyYu2015/quill-free-container/issues"
   },
-  "homepage": "https://github.com/TonyYu2015/quill-free-container#readme"
+  "homepage": "https://github.com/TonyYu2015/quill-free-container#readme",
+  "dependencies": {
+  }
 }
