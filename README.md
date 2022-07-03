@@ -25,7 +25,7 @@ then you can use it like this
 
     new Delta.insert('container-flag', {container: 'yourContainerBlotName'});
 
-some examples maybe show how to use it specifically, online Demo, git Repository
+some examples maybe show how to use it specifically, [online Demo](https://stackblitz.com/edit/react-ts-gwccm9)
 
 ## Community
 Contribute on [Issues](https://github.com/TonyYu2015/quill-free-container/issues), I glad to hear your suggestion
