@@ -21,9 +21,23 @@ first you should register this module before others
 
     export default Quill;
 
+your container
+
+        import Quill from 'quill';
+        const Container = Quill.import('blots/wrapperContainer');
+
+        class YourContainer extends Container {
+
+        }
+
+        YourContainer.blotName= 'your-container-name';
+        YourContainer.tagName= 'DIV';
+        YourContainer.className= 'ql-your-container-name';
+
+
 then you can use it like this
 
-    new Delta.insert('container-flag', {container: 'yourContainerBlotName'});
+    new Delta.insert('container-flag', {container: YourContainer.blotName});
 
 some examples maybe show how to use it specifically, [online Demo](https://codesandbox.io/s/cold-sky-8pw86y)
 
