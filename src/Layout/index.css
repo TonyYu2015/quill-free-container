@@ -1,0 +1,17 @@
+
+.ql-layout-outer {
+	position: relative;
+}
+.ql-layout-outer:hover::after {
+	content: "";
+	background: no-repeat 100% 100% url('./images/Close.png');
+	pointer-events: auto;
+	cursor: pointer;
+	position: absolute;
+	right: -10px;
+	top: -10px;
+	width: 20px;
+	height: 20px;
+	border: 1px solid #ccc;
+	border-radius: 50%;
+}

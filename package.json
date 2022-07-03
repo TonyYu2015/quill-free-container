@@ -2,7 +2,7 @@
   "name": "quill-free-container",
   "version": "0.0.1",
   "description": "a quill module",
-  "main": "./src/index.js",
+  "main": "./index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -14,7 +14,7 @@
     "quill module container"
   ],
   "author": "ycy",
-  "license": "MID",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/TonyYu2015/quill-free-container/issues"
   },
