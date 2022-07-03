@@ -1,6 +1,6 @@
 {
   "name": "quill-free-container",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "a quill module",
   "main": "./index.js",
   "scripts": {
@@ -19,6 +19,5 @@
     "url": "https://github.com/TonyYu2015/quill-free-container/issues"
   },
   "homepage": "https://github.com/TonyYu2015/quill-free-container#readme",
-  "dependencies": {
-  }
+  "dependencies": {}
 }
